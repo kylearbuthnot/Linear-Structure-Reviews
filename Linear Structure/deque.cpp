@@ -11,7 +11,13 @@ using namespace std;
 int main(int argc, char* argv[]){
     
     deque<int> d1; //empty deque
-
+    deque<int> d2(10); //deque with 10 elements
+    deque<int> d3(10, 5); //deque with 10 elements, all initialized to 5
+    d3.at(4) = 10;
+    for(int i = 0; i < d3.size(); i++){
+        cout << d3.at(i) << " ";
+    }
+    
 
     return 0;
 }

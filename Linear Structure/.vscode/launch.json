@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/arbut/OneDrive/Desktop/School/SPRING 2024 UCO/Advanced Data Structures and Algorithms/Practice/Linear Structure",
+      "program": "c:/Users/arbut/OneDrive/Desktop/School/SPRING 2024 UCO/Advanced Data Structures and Algorithms/Practice/Linear Structure/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
